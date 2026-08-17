@@ -1,0 +1,52 @@
+.controls {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+.searchInput {
+  padding: 0.6rem 0.9rem;
+  font-size: 0.95rem;
+  border: 1px solid #cbd2d9;
+  border-radius: 8px;
+  outline: none;
+}
+
+.searchInput:focus {
+  border-color: #3b82f6;
+}
+
+.filterGroup {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.filterButton {
+  padding: 0.45rem 0.9rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border: 1px solid #cbd2d9;
+  border-radius: 999px;
+  background-color: #ffffff;
+  color: #52606d;
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.filterButton:hover {
+  background-color: #f0f4f8;
+}
+
+.activeFilter {
+  background-color: #1b7a4d;
+  border-color: #1b7a4d;
+  color: #ffffff;
+}
+
+.activeFilter:hover {
+  background-color: #166a42;
+}
